@@ -12,7 +12,6 @@
 namespace Sonatra\Bundle\RoutingExtraBundle\Routing;
 
 use Symfony\Component\PropertyAccess\PropertyAccess;
-use Symfony\Component\PropertyAccess\PropertyAccessor;
 use Symfony\Component\PropertyAccess\PropertyAccessorInterface;
 
 /**
@@ -21,7 +20,7 @@ use Symfony\Component\PropertyAccess\PropertyAccessorInterface;
 class PropertyPathMatcher
 {
     /**
-     * @var PropertyAccessor
+     * @var PropertyAccessorInterface
      */
     private $propertyAccessor;
 
