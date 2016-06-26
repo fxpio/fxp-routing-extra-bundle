@@ -2,6 +2,7 @@ Sonatra Routing Extra Bundle
 ============================
 
 [![Latest Version](https://img.shields.io/packagist/v/sonatra/routing-extra-bundle.svg)](https://packagist.org/packages/sonatra/routing-extra-bundle)
+[![Build Status](https://img.shields.io/travis/sonatra/SonatraRoutingExtraBundle/master.svg)](https://travis-ci.org/sonatra/SonatraRoutingExtraBundle)
 
 The Sonatra RoutingExtraBundle is a set of extra tools for the symfony routing.
 
