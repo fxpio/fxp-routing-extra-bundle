@@ -5,6 +5,7 @@ Sonatra Routing Extra Bundle
 [![Build Status](https://img.shields.io/travis/sonatra/SonatraRoutingExtraBundle/master.svg)](https://travis-ci.org/sonatra/SonatraRoutingExtraBundle)
 [![Coverage Status](https://img.shields.io/coveralls/sonatra/SonatraRoutingExtraBundle/master.svg)](https://coveralls.io/r/sonatra/SonatraRoutingExtraBundle?branch=master)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/sonatra/SonatraRoutingExtraBundle/master.svg)](https://scrutinizer-ci.com/g/sonatra/SonatraRoutingExtraBundle?branch=master)
+[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/7989c0af-ce9e-462a-b3ec-9d9d7de2d211.svg)](https://insight.sensiolabs.com/projects/7989c0af-ce9e-462a-b3ec-9d9d7de2d211)
 
 The Sonatra RoutingExtraBundle is a set of extra tools for the symfony routing.
 
