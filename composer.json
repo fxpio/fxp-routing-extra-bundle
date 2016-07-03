@@ -13,9 +13,9 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "symfony/framework-bundle": "~2.8|~3.0",
-        "symfony/routing": "~2.8|~3.0",
-        "symfony/property-access": "~2.8|~3.0"
+        "symfony/framework-bundle": "~3.0",
+        "symfony/routing": "~3.0",
+        "symfony/property-access": "~3.0"
 
     },
     "autoload": {
