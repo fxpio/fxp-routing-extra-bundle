@@ -11,6 +11,7 @@
 
 namespace Sonatra\Bundle\RoutingExtraBundle\Tests\Routing;
 
+use Sonatra\Bundle\RoutingExtraBundle\Routing\PropertyPathMatcher;
 use Sonatra\Bundle\RoutingExtraBundle\Routing\RouterExtra;
 use Sonatra\Bundle\RoutingExtraBundle\Routing\RouterExtraInterface;
 use Sonatra\Bundle\RoutingExtraBundle\Tests\Fixtures\Model\Foo;
@@ -35,7 +36,7 @@ class RouterExtraTest extends \PHPUnit_Framework_TestCase
     protected function setUp()
     {
         $this->router = $this->getMockBuilder(RouterInterface::class)->getMock();
-        $this->routerExtra = new RouterExtra($this->router);
+        $this->routerExtra = new RouterExtra($this->router, new PropertyPathMatcher());
     }
 
     public function getMatcherConfig()

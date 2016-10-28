@@ -17,7 +17,7 @@ use Symfony\Component\PropertyAccess\PropertyAccessorInterface;
 /**
  * @author François Pluchino <francois.pluchino@sonatra.com>
  */
-class PropertyPathMatcher
+class PropertyPathMatcher implements PropertyPathMatcherInterface
 {
     /**
      * @var PropertyAccessorInterface

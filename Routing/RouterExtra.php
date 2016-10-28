@@ -11,7 +11,6 @@
 
 namespace Sonatra\Bundle\RoutingExtraBundle\Routing;
 
-use Symfony\Component\PropertyAccess\PropertyAccessorInterface;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Symfony\Component\Routing\RouterInterface;
 
@@ -26,20 +25,20 @@ class RouterExtra implements RouterExtraInterface
     private $router;
 
     /**
-     * @var PropertyPathMatcher
+     * @var PropertyPathMatcherInterface
      */
     private $matcher;
 
     /**
      * Constructor.
      *
-     * @param RouterInterface           $router           The rooter
-     * @param PropertyAccessorInterface $propertyAccessor The property accessor
+     * @param RouterInterface              $router              The rooter
+     * @param PropertyPathMatcherInterface $propertyPathMatcher The property path matcher
      */
-    public function __construct(RouterInterface $router, PropertyAccessorInterface $propertyAccessor = null)
+    public function __construct(RouterInterface $router, PropertyPathMatcherInterface $propertyPathMatcher)
     {
         $this->router = $router;
-        $this->matcher = new PropertyPathMatcher($propertyAccessor);
+        $this->matcher = $propertyPathMatcher;
     }
 
     /**
