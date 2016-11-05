@@ -37,7 +37,7 @@ About
 -----
 
 Sonatra RoutingExtraBundle is a [sonatra](https://github.com/sonatra) initiative.
-See also the list of [contributors](https://github.com/sonatra/SonatraRoutingExtraBundle/contributors).
+See also the list of [contributors](https://github.com/sonatra/SonatraRoutingExtraBundle/graphs/contributors).
 
 Reporting an issue or a feature request
 ---------------------------------------
