@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dcf811ba29ef2c20e941e228598ef274",
-    "content-hash": "327d593b2ff7a0fd6da0b4dc8ef32a85",
+    "hash": "d6a3bc402abec8cb8445cf74e41cd555",
+    "content-hash": "f3e08e826c71d44f16f47f6eaeda99d8",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -346,16 +346,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonatra/sonatra-routing-extra.git",
-                "reference": "755b6d951d6d544edb17ee940b20d9237cefd2cc"
+                "reference": "14fb239e0fc174002b0175995122c34008767205"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonatra/sonatra-routing-extra/zipball/755b6d951d6d544edb17ee940b20d9237cefd2cc",
-                "reference": "755b6d951d6d544edb17ee940b20d9237cefd2cc",
+                "url": "https://api.github.com/repos/sonatra/sonatra-routing-extra/zipball/14fb239e0fc174002b0175995122c34008767205",
+                "reference": "14fb239e0fc174002b0175995122c34008767205",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.0",
+                "php": ">=5.6.0",
                 "symfony/property-access": "~3.0",
                 "symfony/routing": "~3.0"
             },
@@ -389,7 +389,7 @@
                 "extra",
                 "routing"
             ],
-            "time": "2016-11-05 09:54:48"
+            "time": "2016-11-05 14:23:24"
         },
         {
             "name": "symfony/asset",
@@ -1852,7 +1852,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.5.0"
+        "php": ">=5.6.0"
     },
     "platform-dev": []
 }
