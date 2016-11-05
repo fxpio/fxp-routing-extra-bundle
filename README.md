@@ -11,7 +11,7 @@ The Sonatra RoutingExtraBundle is a set of extra tools for the symfony routing.
 
 Features include:
 
-- Convert route parameters by object value defined by the property paths
+- All features of [Sonatra Routing Extra](https://github.com/sonatra/sonatra-routing-extra)
 
 Documentation
 -------------
