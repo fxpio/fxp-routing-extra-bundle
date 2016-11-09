@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "A set of extra tools for the symfony routing",
     "keywords": ["routing", "extra", "bundle"],
-    "homepage": "https://github.com/sonatra/SonatraRoutingExtraBundle",
+    "homepage": "https://github.com/sonatra/sonatra-routing-extra-bundle",
     "license": "MIT",
     "authors": [
         {
