@@ -11,6 +11,7 @@
 
 namespace Sonatra\Bundle\RoutingExtraBundle\Tests\DependencyInjection;
 
+use PHPUnit\Framework\TestCase;
 use Sonatra\Bundle\RoutingExtraBundle\DependencyInjection\SonatraRoutingExtraExtension;
 use Sonatra\Bundle\RoutingExtraBundle\SonatraRoutingExtraBundle;
 use Symfony\Bundle\FrameworkBundle\DependencyInjection\FrameworkExtension;
@@ -20,7 +21,7 @@ use Symfony\Component\DependencyInjection\ParameterBag\ParameterBag;
 /**
  * @author François Pluchino <francois.pluchino@sonatra.com>
  */
-class SonatraRoutingExtraExtensionTest extends \PHPUnit_Framework_TestCase
+class SonatraRoutingExtraExtensionTest extends TestCase
 {
     public function testExtensionExist()
     {
