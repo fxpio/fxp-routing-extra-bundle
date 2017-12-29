@@ -4,8 +4,59 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d17a1f8d080b27a488648286c2f2a69c",
+    "content-hash": "30def068d7f2e362ce4a07439bc5b095",
     "packages": [
+        {
+            "name": "fxp/routing-extra",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fxpio/fxp-routing-extra.git",
+                "reference": "9d2782b7265d9bfe7d4d2f43035eb13fab08ce58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fxpio/fxp-routing-extra/zipball/9d2782b7265d9bfe7d4d2f43035eb13fab08ce58",
+                "reference": "9d2782b7265d9bfe7d4d2f43035eb13fab08ce58",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1.0",
+                "symfony/property-access": "^3.4.0|^4.0.0",
+                "symfony/routing": "^3.4.0|^4.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fxp\\Component\\RoutingExtra\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Pluchino",
+                    "email": "francois.pluchino@gmail.com"
+                }
+            ],
+            "description": "A set of extra tools for the symfony routing",
+            "homepage": "https://github.com/fxpio/fxp-routing-extra",
+            "keywords": [
+                "extra",
+                "routing"
+            ],
+            "time": "2017-12-29T11:26:07+00:00"
+        },
         {
             "name": "psr/cache",
             "version": "1.0.1",
@@ -195,57 +246,6 @@
                 "simple-cache"
             ],
             "time": "2017-01-02T13:31:39+00:00"
-        },
-        {
-            "name": "sonatra/routing-extra",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sonatra/sonatra-routing-extra.git",
-                "reference": "437bfc3c2fecd5f2978c71faf8026ac2a9295b78"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sonatra/sonatra-routing-extra/zipball/437bfc3c2fecd5f2978c71faf8026ac2a9295b78",
-                "reference": "437bfc3c2fecd5f2978c71faf8026ac2a9295b78",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1.0",
-                "symfony/property-access": "^3.4.0|^4.0.0",
-                "symfony/routing": "^3.4.0|^4.0.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Sonatra\\Component\\RoutingExtra\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "François Pluchino",
-                    "email": "francois.pluchino@sonatra.com"
-                }
-            ],
-            "description": "A set of extra tools for the symfony routing",
-            "homepage": "https://github.com/sonatra/sonatra-routing-extra",
-            "keywords": [
-                "extra",
-                "routing"
-            ],
-            "time": "2017-12-26T18:25:59+00:00"
         },
         {
             "name": "symfony/cache",

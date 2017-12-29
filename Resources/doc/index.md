@@ -1,4 +1,4 @@
-Getting Started With Sonatra RoutingExtraBundle
+Getting Started With Fxp RoutingExtraBundle
 ===============================================
 
 ## Prerequisites
@@ -14,23 +14,13 @@ Installation is a quick, 2 step process:
 
 ### Step 1: Download the bundle using composer
 
-Add Sonatra RoutingExtraBundle in your composer.json:
-
-```js
-{
-    "require": {
-        "sonatra/routing-extra-bundle": "~1.0"
-    }
-}
-```
-
-Or tell composer to download the bundle by running the command:
+Tell composer to download the bundle by running the command:
 
 ```bash
-$ php composer.phar require routing-extra-bundle:"~1.0"
+$ composer require routing-extra-bundle
 ```
 
-Composer will install the bundle to your project's `vendor/sonatra` directory.
+Composer will install the bundle to your project's `vendor/fxp` directory.
 
 ### Step 2: Enable the bundle
 
@@ -43,7 +33,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Sonatra\Bundle\RoutingExtraBundle\SonatraRoutingExtraBundle(),
+        new Fxp\Bundle\RoutingExtraBundle\FxpRoutingExtraBundle(),
     );
 }
 ```
@@ -51,4 +41,4 @@ public function registerBundles()
 ### Next Steps
 
 Now that you have completed the basic installation and configuration of the
-Sonatra RoutingExtraBundle, you are ready to learn about usages of the bundle.
+Fxp RoutingExtraBundle, you are ready to learn about usages of the bundle.
