@@ -37,20 +37,20 @@ class FxpRoutingExtraExtensionTest extends TestCase
         $this->assertTrue($container->hasDefinition('fxp_routing_extra.router_extra'));
     }
 
-    protected function createContainer(array $configs = array())
+    protected function createContainer(array $configs = [])
     {
-        $container = new ContainerBuilder(new ParameterBag(array(
-            'kernel.bundles' => array(
+        $container = new ContainerBuilder(new ParameterBag([
+            'kernel.bundles' => [
                 'FrameworkBundle' => 'Symfony\\Bundle\\FrameworkBundle\\FrameworkBundle',
                 'FxpRoutingExtraBundle' => 'Fxp\\Bundle\\RoutingExtraBundle\\FxpRoutingExtraBundle',
-            ),
+            ],
             'kernel.cache_dir' => sys_get_temp_dir().'/fxp_routing_extra_bundle',
             'kernel.debug' => false,
             'kernel.environment' => 'test',
             'kernel.name' => 'kernel',
             'kernel.root_dir' => sys_get_temp_dir().'/fxp_routing_extra_bundle',
             'kernel.charset' => 'UTF-8',
-        )));
+        ]));
 
         $sfExt = new FrameworkExtension();
         $extension = new FxpRoutingExtraExtension();
@@ -58,14 +58,14 @@ class FxpRoutingExtraExtensionTest extends TestCase
         $container->registerExtension($sfExt);
         $container->registerExtension($extension);
 
-        $sfExt->load(array(array()), $container);
+        $sfExt->load([[]], $container);
         $extension->load($configs, $container);
 
         $bundle = new FxpRoutingExtraBundle();
         $bundle->build($container);
 
-        $container->getCompilerPassConfig()->setOptimizationPasses(array());
-        $container->getCompilerPassConfig()->setRemovingPasses(array());
+        $container->getCompilerPassConfig()->setOptimizationPasses([]);
+        $container->getCompilerPassConfig()->setRemovingPasses([]);
         $container->compile();
 
         return $container;
