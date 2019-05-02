@@ -20,17 +20,19 @@ use Symfony\Component\DependencyInjection\ParameterBag\ParameterBag;
 
 /**
  * @author François Pluchino <francois.pluchino@gmail.com>
+ *
+ * @internal
  */
-class FxpRoutingExtraExtensionTest extends TestCase
+final class FxpRoutingExtraExtensionTest extends TestCase
 {
-    public function testExtensionExist()
+    public function testExtensionExist(): void
     {
         $container = $this->createContainer();
 
         $this->assertTrue($container->hasExtension('fxp_routing_extra'));
     }
 
-    public function testExtensionLoader()
+    public function testExtensionLoader(): void
     {
         $container = $this->createContainer();
 
