@@ -39,7 +39,7 @@ final class FxpRoutingExtraExtensionTest extends TestCase
         $this->assertTrue($container->hasDefinition('fxp_routing_extra.router_extra'));
     }
 
-    protected function createContainer(array $configs = [])
+    protected function createContainer(array $configs = []): ContainerBuilder
     {
         $container = new ContainerBuilder(new ParameterBag([
             'kernel.bundles' => [
