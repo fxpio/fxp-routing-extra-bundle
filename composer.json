@@ -15,9 +15,9 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.1.0",
-        "symfony/framework-bundle": "^4.2.0",
-        "symfony/routing": "^4.2.0",
-        "symfony/property-access": "^4.2.0",
+        "symfony/framework-bundle": "^4.3.0",
+        "symfony/routing": "^4.3.0",
+        "symfony/property-access": "^4.3.0",
         "fxp/routing-extra": "^2.0.0"
     },
     "autoload": {
