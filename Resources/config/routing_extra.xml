@@ -15,6 +15,9 @@
             <argument type="service" id="router" />
             <argument type="service" id="fxp_routing_extra.property_path_matcher" />
         </service>
+
+        <service id="Fxp\Component\RoutingExtra\Routing\RouterExtra" alias="fxp_routing_extra.router_extra" />
+        <service id="Fxp\Component\RoutingExtra\Routing\RouterExtraInterface" alias="fxp_routing_extra.router_extra" />
     </services>
 
 </container>
